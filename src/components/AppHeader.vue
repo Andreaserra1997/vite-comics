@@ -1,35 +1,39 @@
-<script>
-
-export default {
-
-}
-</script>
+<script></script>
 
 <template>
     <header>
-        <div>img</div>
-        <ul>
-            <li><a href="#">CHARACTERS</a></li>
-            <li><a href="#">COMICS</a></li>
-            <li><a href="#">MOVIES</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">GAMES</a></li>
-            <li><a href="#">COLLECTIBLES</a></li>
-            <li><a href="#">VIDEOS</a></li>
-            <li><a href="#">FANS</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">SHOP</a></li>
-        </ul>
+        <div class="content-header">
+            <div><img src="../../img/dc-logo.png"></div>
+            <ul>
+                <li><a href="#">CHARACTERS</a></li>
+                <li><a href="#">COMICS</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">COLLECTIBLES</a></li>
+                <li><a href="#">VIDEOS</a></li>
+                <li><a href="#">FANS</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">SHOP</a></li>
+            </ul>
+        </div>
     </header>
 </template>
 
 <style lang="scss" scoped>
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-color: #FFF;
-    height: 5rem;
+    .content-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 6rem;
+        max-width: 1000px;
+        margin: auto;
+        img {
+            width: 60%;
+        }
+    }
 }
 ul {
     display: flex;

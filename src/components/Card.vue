@@ -18,9 +18,12 @@ export default {
 
 <style lang="scss" scoped>
 .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 </style>

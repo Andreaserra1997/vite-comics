@@ -160,7 +160,9 @@ export default {
     margin: auto;
     li {
       width: calc(100% / 6);
+      padding-inline: 1rem;
       list-style: none;
+      font-size: 0.7rem;
       text-align: center;
     }
   }
